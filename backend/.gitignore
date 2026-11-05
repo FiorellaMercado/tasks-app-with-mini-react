@@ -1,0 +1,5 @@
+node_modules/
+tareas.db
+tareas.db-journal
+tareas.db-wal
+tareas.db-shm
