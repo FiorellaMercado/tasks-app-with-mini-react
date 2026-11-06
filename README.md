@@ -1,6 +1,6 @@
 # Tasks App con Mini React
 
-Aplicación de lista de tareas hecha con:
+Aplicación de lista de tareas, con el frontend hecho con:
 
 visitar repo:
 [Mini React](https://github.com/FiorellaMercado/mini-react-js)
@@ -52,4 +52,4 @@ Cada tarea tiene: `id`, `titulo`, `completado` (booleano) y `created_at`.
 
 ## Documentación del framework
 
-- Limitaciones: ver frontend/docs/limitaciones.md
+- Ver en la carpeta docs de la repo: [Mini React](https://github.com/FiorellaMercado/mini-react-js)
