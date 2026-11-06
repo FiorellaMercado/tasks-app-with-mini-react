@@ -5,7 +5,6 @@ export default defineConfig({
     jsx: {
       runtime: "classic",
       pragma: "createElement",
-      pragmaFrag: "Fragment",
     },
   },
 })

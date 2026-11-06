@@ -31,9 +31,21 @@ export async function getTareas(){
 }
 
 
-export async function createTask(titulo){
+export async function createTask(dato){
+    console.log(dato)
+    const tarea = await apiRequest(`tareas`, 'POST', dato)
+    return tarea
 
-    const tarea = await apiRequest(`tareas`, 'POST', {titulo:titulo})
+}
+
+export async function deleteTask(id){
+    const tarea = await apiRequest(`tareas/${id}`, 'DELETE')
+    return tarea
+
+}
+
+export async function updateTask(id,datos){
+    const tarea = await apiRequest(`tareas/${id}`, 'PATCH', datos)
     return tarea
 
 }
