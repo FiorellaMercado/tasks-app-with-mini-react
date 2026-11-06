@@ -53,3 +53,7 @@ Cada tarea tiene: `id`, `titulo`, `completado` (booleano) y `created_at`.
 ## Documentación del framework
 
 - Ver en la carpeta docs de la repo: [Mini React](https://github.com/FiorellaMercado/mini-react-js)
+
+
+
+npm install better-sqlite3@latest
