@@ -17,7 +17,7 @@ function App(){
             <TaskForm />
             <ListTareas lista={tareas} />
             {estado.cargando?<p className="mt-4 text-sm ">Cargando...</p>:""}
-            {estado.error?<p className="mt-4 text-sm ">Error: {estado.error}</p>:""}
+            {estado.error?<p className="mt-4 text-sm text-red-400 ">Error: {estado.error}</p>:""}
         </section>
         
     )

@@ -3,11 +3,11 @@ import { createStore } from "./react";
 const estadoInicial = {tareas: [], cargando:true, error:null}
 
 function reducer(estado, accion){
-    if(accion.type === 'TAREAS_CARGADAS'){
-        if(accion.error){
-            return {...estado, error:accion.error, cargando:false}
+    if(accion.error){
+        return {...estado, error:accion.error, cargando:false}
  
-        }
+    }
+    if(accion.type === 'TAREAS_CARGADAS'){
         return {...estado, tareas:accion.payload, cargando:false}
     }
     if(accion.type==='TAREA_AGREGADA'){
